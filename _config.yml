@@ -1,0 +1,17 @@
+# standard jekyll configuration
+
+permalink: /articles/:title
+highlighter: pygments
+exclude:
+- bin
+- config.rb
+- Gemfile
+- Gemfile.lock
+- gems
+- Procfile
+- Rakefile
+- README.md
+- script
+- vendor
+
+markdown: rdiscount

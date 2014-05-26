@@ -1,10 +1,14 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Michael Guo Blog</title>
-</head>
-<body>
-  Just for test!
-</body>
-</html>
+---
+layout: default
+title: test
+---
+
+<p>prototype属性时Javascript为每个Function()实例创建的一个对象。prototype属性来自Function()构造函数。Javascript会为每一个函数创建原型对象，不管你是否打算将这个函数作为构造函数使用。</p>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
