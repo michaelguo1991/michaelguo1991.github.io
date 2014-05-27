@@ -1,17 +1,16 @@
-# standard jekyll configuration
-
-permalink: /articles/:title
-highlighter: pygments
-exclude:
-- bin
-- config.rb
-- Gemfile
-- Gemfile.lock
-- gems
-- Procfile
-- Rakefile
-- README.md
-- script
-- vendor
-
+name: Wanga Theme
 markdown: rdiscount
+pygments: true
+
+permalink: /:year/:month/:title/
+owner:
+    name: #
+    twitter: #
+    github: #
+    disqus_shortname: #
+    
+ga_id: #
+ga_username: #
+        
+timezone: #
+       
