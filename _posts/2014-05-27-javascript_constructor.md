@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Javascript Constructor
 tags: javascript constructor
 comments: true
 ---

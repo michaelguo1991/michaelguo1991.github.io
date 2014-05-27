@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Javascript Prototype
 tags: javascript prototype
 comments: true
 ---
