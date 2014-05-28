@@ -2,7 +2,7 @@ name: Michael Guo Blog
 markdown: rdiscount
 highlighter: pygents
 
-permalink: /:year/:month/:title/
+permalink: /:year/:month/:day/:title/
 owner:
     name: #
     twitter: #

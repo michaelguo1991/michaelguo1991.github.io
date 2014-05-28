@@ -8,15 +8,27 @@ layout: default
     		<div class="postlist-meta">
     			Posted
     			<time class="timeago" datetime="{{ page.date |  date: "%A %-d %B %Y" }}">{{ page.date }}</time>
-    			,
-    			<a href="{{ page.url }}#disqus_thread">0 <i class="fa fa-comments-o fa-lg"></i></a>
-    			comments.
     		</div>
     	</div>
         <div class="post">
             {{ content }}
             
         </div>
+        <div id="SOHUCS"></div>
+        <script>
+          (function(){
+            var appid = 'cyrc4xAMn',
+            conf = 'prod_75519d68dc7afbf1a89ff754ce6d02af';
+            var doc = document,
+            s = doc.createElement('script'),
+            h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+            s.type = 'text/javascript';
+            s.charset = 'utf-8';
+            s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+            h.insertBefore(s,h.firstChild);
+            window.SCS_NO_IFRAME = true;
+          })()
+        </script>
     </div>
 </div>
 <script>
