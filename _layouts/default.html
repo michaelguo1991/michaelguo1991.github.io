@@ -2,6 +2,7 @@
 <span class="statusbar"></span>
 {% include page-nav.html %}
 
+<button id="test-error">Test Error</button>
 <!-- Wrap all page content here -->
 <div id="wrap">
     <div class="container">
@@ -38,5 +39,11 @@
         Powered by <a href="http://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/nadjetey/wangana">Wangana</a>
     </footer>
 </div>
+
+<script>
+    $('#test-error').click(function() {
+        a = c + 3;
+    });
+</script>
 
 {% include footer.html %}
